@@ -39,7 +39,7 @@ void test2(){
     assert(a.size() == 6);
 }
 
-//testing the *it asserting (was bugging out because pop_back)
+//testing push_back with it increments and testing multiple assertions
 void test3(){
     List a;
     Iterator it = a.begin();
@@ -72,8 +72,8 @@ void pop_back(){
     assert(a.size() == 5);
     
     a.pop_back();
-    a.pop_back();
     a.pop_front();
+    a.pop_back();
     a.pop_back();
     assert(a.size() == 1);
     it = a.begin();
