@@ -79,6 +79,8 @@ void pop_back(){
     it = a.begin();
     assert(*it == 6);
 }
+
+//test insert iterator
 void insert(){
     List a;
     Iterator it = a.begin();
@@ -114,7 +116,7 @@ void erase(){
     assert(a.size() == 2);
 }
 
-//testing Iterator insert
+
 
 int main(int argc, char * args[]) {
     test1();
