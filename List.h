@@ -16,7 +16,7 @@ public:
 	void pop_back();
 	Iterator begin();
 	Iterator end();
-    Iterator insert(Iterator it, int data);
+    	Iterator insert(Iterator it, int data);
 	Iterator erase(Iterator it);
 private:
     Link* head;
