@@ -1,4 +1,3 @@
-
 #include "Iterator.h"
 
 int& Iterator::operator*() const{
